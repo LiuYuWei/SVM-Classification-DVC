@@ -1,0 +1,8 @@
+md5: 8c363a7ec4eb1d0bc30d0fe97bf763e5
+wdir: ..
+outs:
+- md5: 341a3b5244f213282b7b0920b729c592
+  path: data/iris.csv
+  cache: true
+  metric: false
+  persist: false
