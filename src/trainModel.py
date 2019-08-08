@@ -23,7 +23,7 @@ class svmModel:
         return self.x_train, self.y_train
     
     def trainModel(self):
-        self.model = SVC(kernel = 'rbf', random_state = 0)
+        self.model = SVC(kernel = 'linear', random_state = 0)
         self.model.fit(self.x_train, self.y_train)
         return self.model
 
