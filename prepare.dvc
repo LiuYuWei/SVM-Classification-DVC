@@ -1,0 +1,14 @@
+md5: 357e52d2626a9482024c1f4d6aa113e0
+cmd: python src/prepare.py data/iris.csv data/prepared/
+wdir: .
+deps:
+- md5: 6004344e8095343f9acea514f38203e5
+  path: src/prepare.py
+- md5: 341a3b5244f213282b7b0920b729c592
+  path: data/iris.csv
+outs:
+- md5: a1ea37806b664400c612de03c202a2aa.dir
+  path: data/prepared
+  cache: true
+  metric: false
+  persist: false
