@@ -1,2 +1,5 @@
+
 ['remote "myremote"']
 url = C:\Users\admin\Desktop\dvc-data
+[core]
+remote = myremote
