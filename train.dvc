@@ -1,0 +1,14 @@
+md5: 1d2827298276ce303f18c0228a332c53
+cmd: python src/trainModel.py data/prepared result/svmmodel.pkl
+wdir: .
+deps:
+- md5: 01e67009d3a15acf9d1204d85860c4df
+  path: src/trainModel.py
+- md5: a1ea37806b664400c612de03c202a2aa.dir
+  path: data/prepared
+outs:
+- md5: f032fffac090ec28670b9ac2704e5988
+  path: result/svmmodel.pkl
+  cache: true
+  metric: false
+  persist: false
