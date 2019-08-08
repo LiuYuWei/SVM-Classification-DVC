@@ -1,0 +1,16 @@
+md5: bd9ace513db5e56d9ecba1b3a3f07567
+cmd: python src/evaluate.py data/prepared result/svmmodel.pkl acc.metric
+wdir: .
+deps:
+- md5: 01a9ae2c2632eb85bd29b249e9dd7d71
+  path: src/evaluate.py
+- md5: a1ea37806b664400c612de03c202a2aa.dir
+  path: data/prepared
+- md5: f032fffac090ec28670b9ac2704e5988
+  path: result/svmmodel.pkl
+outs:
+- md5: 7fb891c8f7aa1a414ab8cef5a54de9b6
+  path: acc.metric
+  cache: false
+  metric: true
+  persist: false
